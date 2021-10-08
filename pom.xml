@@ -3,6 +3,10 @@
   <groupId>study</groupId>
   <artifactId>study</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+    </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -25,6 +29,16 @@
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-core</artifactId>
 	    <version>5.3.10</version>
+	</dependency>
+		<dependency>
+	    <groupId>org.aspectj</groupId>
+	    <artifactId>aspectjweaver</artifactId>
+	    <version>1.9.7</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.aspectj</groupId>
+	    <artifactId>aspectjrt</artifactId>
+	    <version>1.9.7</version>
 	</dependency>
   </dependencies>
 </project>
