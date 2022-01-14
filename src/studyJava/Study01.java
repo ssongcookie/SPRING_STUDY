@@ -8,6 +8,10 @@ public class Study01 {
 		
 		System.out.println("i = " + i);
 
+		ChildClass child = new ChildClass();
+		child.parentFun();
+		child.childFun();
 	}
 
+	
 }

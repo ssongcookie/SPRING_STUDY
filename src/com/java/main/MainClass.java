@@ -23,10 +23,10 @@ public class MainClass {
 		
 		System.out.println();
 		
-		EmployeeBank parkBank = new EmployeeBank("¹ÚÂùÈ£");
+		EmployeeBank parkBank = new EmployeeBank("ë°•ì°¬í˜¸");
 		parkBank.saveMoney(100);
 		
-		EmployeeBank leeBank = new EmployeeBank("ÀÌ½Â¿±");
+		EmployeeBank leeBank = new EmployeeBank("ì´ìŠ¹ì—½");
 		leeBank.saveMoney(300);
 		
 		leeBank.getBankInfo();
