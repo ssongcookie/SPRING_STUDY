@@ -1,4 +1,4 @@
-package studyJava;
+package studyJava.java;
 
 public class Study04 {
 

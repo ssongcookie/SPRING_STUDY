@@ -1,4 +1,4 @@
-package studyJava;
+package studyJava.interfaCe;
 
 public class InterfaceClass implements InterfaceA, InterfaceB{ //다형성
 

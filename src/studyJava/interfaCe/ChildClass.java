@@ -1,4 +1,4 @@
-package studyJava;
+package studyJava.interfaCe;
 
 public class ChildClass extends ParentClass{ //상속
 

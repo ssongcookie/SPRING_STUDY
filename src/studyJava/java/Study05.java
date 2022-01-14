@@ -1,4 +1,4 @@
-package studyJava;
+package studyJava.java;
 
 import java.util.Scanner;
 

@@ -1,4 +1,6 @@
-package studyJava;
+package studyJava.java;
+
+import studyJava.interfaCe.ChildClass;
 
 public class Study01 {
 
