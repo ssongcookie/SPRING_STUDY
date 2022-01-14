@@ -8,4 +8,7 @@ public class ParentClass {
 	public void parentFun() {
 		System.out.println("-- parentFun() START --");
 	}
+	public void makeBread() {
+		System.out.println("-- makeBread() START --");
+	}
 }

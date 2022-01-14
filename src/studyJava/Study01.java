@@ -11,6 +11,7 @@ public class Study01 {
 		ChildClass child = new ChildClass();
 		child.parentFun();
 		child.childFun();
+		child.makeBread();
 	}
 
 	
