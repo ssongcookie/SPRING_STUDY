@@ -1,5 +1,7 @@
 package studyLambda;
 
+import java.util.Iterator;
+
 public class MainClass {
 
 	public static void main(String[] args) {
@@ -31,5 +33,19 @@ public class MainClass {
 		System.out.println(i.method(3, 4));
 	
 */
+		//1부터 100까지 숫자를 출력하면서
+		//3의 배수일 경우"" 5의 배수일 경우"" 7의 배수일 경우"" 를 출력하시오.
+		for (int i = 1; i < 101; i++) {
+			if (i % 3 == 0) {
+				System.out.println(i + "는 3의 배수입니다.");
+			}else if (i % 5 == 0) {
+				System.out.println(i + "는 5의 배수입니다.");
+			}else if (i % 7 == 0) {
+				System.out.println(i + "는 7의 배수입니다.");
+			}
+			System.out.println(i);
+		}
+			
+		
 	}
 }
